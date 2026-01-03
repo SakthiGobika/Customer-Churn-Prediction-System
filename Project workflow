@@ -1,0 +1,68 @@
+🔍 Project Workflow
+1️⃣ Data Loading & Understanding
+
+Loaded Excel dataset using Pandas
+
+Inspected data types, missing values, and target distribution
+
+2️⃣ Data Cleaning & Feature Selection
+
+Removed irrelevant and leakage columns (CustomerID, location data, churn reason, churn score)
+
+Converted Total Charges from object to numeric
+
+Handled missing values using median imputation
+
+3️⃣ Exploratory Data Analysis (EDA)
+
+Key insights:
+
+Customers with month-to-month contracts have higher churn
+
+Low tenure customers are more likely to churn
+
+Higher monthly charges increase churn probability
+
+Long-term contracts improve customer retention
+
+4️⃣ Feature Engineering & Encoding
+
+One-hot encoded categorical variables
+
+Scaled numerical features using StandardScaler
+
+5️⃣ Model Building
+
+Baseline Model: Logistic Regression
+
+Advanced Model: Random Forest Classifier
+
+6️⃣ Model Evaluation
+
+Evaluation metrics:
+
+Accuracy
+
+Precision
+
+Recall (focused metric)
+
+ROC-AUC Score
+
+Random Forest outperformed the baseline model and was selected as the final model.
+
+7️⃣ Feature Importance Analysis
+
+Identified key churn drivers:
+
+Contract type
+
+Tenure months
+
+Monthly charges
+
+Internet service type
+
+8️⃣ Model Saving
+
+Trained model and scaler saved using joblib for future deployment
