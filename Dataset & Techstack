@@ -1,0 +1,45 @@
+📂 Dataset Description
+
+Real-world Telecom Customer Churn Dataset
+
+~7,000 customer records
+
+Includes:
+
+Demographics (gender, senior citizen, dependents)
+
+Account information (tenure, contract type, payment method)
+
+Service usage (internet, streaming, support services)
+
+Financial metrics (monthly charges, total charges, CLTV)
+
+🛠️ Tech Stack
+
+Programming Language: Python
+
+Libraries:
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+💡 Business Impact
+
+This system can help organizations:
+
+Identify high-risk customers early
+
+Design targeted retention campaigns
+
+Reduce revenue loss due to churn
+
+Improve customer lifetime value (CLTV)
+
+🚀 Future Enhancements
+
+Deploy model using Streamlit or Flask
+
+Add Power BI / Tableau dashboard for churn visualization
